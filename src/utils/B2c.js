@@ -26,14 +26,18 @@ var isIE = function isIE() {
   var B2C_SCOPES = {
     API_ACCESS: {
       scopes: ['https://b2cunicorn.onmicrosoft.com/api/user_impersonation']
+
     }
   };
   
   var msalAppConfig = {
     auth: {
       clientId: '68598176-a1c9-476f-a856-cbc218913b4b',
-      authority:'https://animas.b2clogin.com/animas.onmicrosoft.com/B2C_1_Singup_react',
-      redirectUri: 'http://localhost:3000',
+      
+
+      authority:'https://animas.b2clogin.com/animas.onmicrosoft.com/B2C_1_Google',
+
+      redirectUri: 'http://localhost:3000/',
       validateAuthority: false,
       postLogoutRedirectUri: 'window.location.origin'
     },

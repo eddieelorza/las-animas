@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './Routes/App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import authentication from './utils/B2c';
