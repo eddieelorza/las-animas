@@ -37,7 +37,7 @@ var isIE = function isIE() {
 
       authority:'https://animas.b2clogin.com/animas.onmicrosoft.com/B2C_1_Google',
 
-      redirectUri: 'http://localhost:3000/',
+      redirectUri: 'http://localhost:3000',
       validateAuthority: false,
       postLogoutRedirectUri: 'window.location.origin'
     },
